@@ -1,0 +1,18 @@
+有刺 水生 喜阳 药用 木本 可食用 有白色粉末 叶片针状 结果实 黄色花
+种子有果皮 种子无果皮 无茎叶 无根 有托叶 吸引菜粉蝶 十字形花冠 缺水环境
+被子植物 裸子植物 藻类植物 蔷薇科 十字花科 仙人掌科
+IF 种子有果皮 THEN 被子植物
+IF 种子无果皮 THEN 裸子植物
+IF 无茎叶 AND 无根 THEN 藻类植物
+IF 被子植物 AND 有托叶 THEN 蔷薇科
+IF 被子植物 AND 吸引菜粉蝶 THEN 十字花科
+IF 被子植物 AND十字形花冠 THEN 十字花科
+IF 被子植物 AND 缺水环境 THEN 仙人掌科
+IF 被子植物 AND 蔷薇科 AND 有刺 THEN 玫瑰
+IF 被子植物 AND 水生 AND 可食用 AND 结果实 THEN 荷花
+IF 被子植物 AND 仙人掌科 AND 喜阳 AND 有刺 THEN 仙人球
+IF 藻类植物 AND 水生 AND 药用 THEN 水棉
+IF 被子植物 AND 蔷薇科 AND 木本 AND 可食用 AND 结果实 THEN 苹果树
+IF 被子植物 AND 十字花科 AND 黄色花 AND 可食用 AND 结果实 THEN 油菜
+IF 藻类植物 AND 水生 AND 可食用 AND 有白色粉末 THEN 海带
+IF 裸子植物 AND 木本 AND 叶片针状 AND 结果实 THEN 松树

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>res/db.txt</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>res/pic/appleTree.jpg</file>
+        <file>res/pic/kelp.jpg</file>
+        <file>res/pic/lotus.jpg</file>
+        <file>res/pic/pineTree.jpg</file>
+        <file>res/pic/rape.jpg</file>
+        <file>res/pic/rose.jpg</file>
+        <file>res/pic/spirogyra.jpg</file>
+        <file>res/pic/cactus.jpg</file>
+    </qresource>
+</RCC>
